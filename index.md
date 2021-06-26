@@ -9,7 +9,7 @@
 var pages = [ 
  
  
-'https://google.com.ph',
+'https://fgdfghdf12.blogspot.com/2021/06/blog-post.html',
 
 
 
