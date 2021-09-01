@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta property="og:url" content="https://www.facebook.com/"/>
 </head>
-<script> document.location.href="link"</script>
+<script> document.location.href="https://www.facebook.com/"</script>
 
 
 </html>
