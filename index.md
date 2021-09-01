@@ -9,7 +9,7 @@
 var pages = [ 
  
  
-'https://bit.ly/3iqrRJ1',
+'https://zxvszxxv145124.blogspot.com/2021/06/blog-post.html',
 
 
 
